@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#game-name{
+    text-align: center;
+    background-color: hsl(0, 33%, 4%);
+    color: white;
+    height: 100px;
+    line-height: 6rem;
+}
+.choices{
+    height: 500px;
+    width: 1200px;
+    /* border: 2px solid blue; */
+    margin-top:40px ;
+    margin-left: 20%;
+    /* margin-right: 30%; */
+    /* justify-content: ; */
+    display: flex;
+}
+.choice{
+    /* border: 2px solid red; */
+    width: 190px;
+    height: 140px; 
+    position:sticky;
+
+}
+
+ img{
+    height:120px ;
+    width: 170px; 
+    /* object-fit: cover; */
+    /* border: 2px solid green; */
+    padding: 0px;
+
+}
+.score{
+    height: 60px;
+    width: 300px;
+}
+.score-card{
+   margin-top: 50px;
+   margin-left: 40%;
+    width: 200px;
+    text-align: center;
+    /* border: 2px solid black */
+}
+#your-score{
+    /* border: 2px solid yellow; */
+    /* margin-top: 355px; */
+    font-weight: bolder;
+    font-size: 25px;
+}
+#computer-score{
+    /* border: 2px solid rgb(255, 0, 179); */
+    font-weight: bolder;
+    font-size: 25px;
+}
+#paper{
+   margin-left: 100px;
+}
+#scissor{
+   margin-left: 30px;
+}
+#rock{
+    margin-top: 205px;
+    margin-right: 0px;
+}
+button{
+    margin-left: 43%;
+    font-size: 60px;
+    border-radius: 1rem;
+}
+.winner{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 200px;
+    margin-top:40px ;
+    margin-left: 180px;
+    text-align: center;
+    line-height: 3rem;
+    background-color: green;
+    justify-content: center;
+    display: flex;
+    object-fit: contain;
+}
+#reset{
+    margin-top: 5px;
+}
